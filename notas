@@ -10,8 +10,16 @@ git checkout codigo
 touch nota
 git add nota
 git commit -m 'comentario'
+git commit -m 'comentario' -a para hacer commit con archivos unstaged
 git push -u origin master
 git diff   solo en unstaged
 git diff --staged los que estan staged
+
+rm nota
+git rm nota para unstaged
+git rm nota -f para unstaged
+git rm --cached ignorar para quede en unstaged
+
+git mv antiguo nuevo 
 
 agregando lineas
